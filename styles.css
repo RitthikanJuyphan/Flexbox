@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.item {
+    background-color: #e6c32f;
+    padding: 30px;
+    min-height: 120px;
+}
+
+h3 {
+    margin-top: 0;
+}
